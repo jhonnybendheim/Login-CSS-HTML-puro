@@ -1,21 +1,32 @@
-a {
+.link_volta{
     position: absolute;
-    width: 116px;
-    height: 17px;
-    left: 54px;
-    top: 9.5px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 17px;
-    color: #000000;
+    overflow: visible;
+    display: flex;
+    width: 150px;
+    left: 120px;    
+    height: 50%;
+    bottom: 267px;
+
+    font-weight: 400;
+    font-size: 14px;
     text-decoration: none;
+    
+    color: #000000;
+
+    z-index: auto;
 }
 
-.top_link{
 
+
+.link_imagem{
     position:absolute;
-    width: 12px;
-    height: 12px;
-}
+    display: flex;
+    width: 70px;
+    height: 50px;
+    bottom: 537px;
+    padding: 24px;
+    margin: auto;
+    left: 24px;
+    
+    z-index: auto;
+}   
